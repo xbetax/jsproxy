@@ -16,8 +16,9 @@ jsproxy_config({
       label: 'hk',
       lines: {
         // 主机:权重
+        'node-aliyun-hk-0.etherdream.com:8443': 1,
         'node-aliyun-hk-1.etherdream.com:8443': 1,
-        'node-aliyun-hk-2.etherdream.com:8443': 2,
+        'node-aliyun-hk-2.etherdream.com:8443': 2
       }
     },
     'demo-sg': {
